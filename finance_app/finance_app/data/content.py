@@ -16,7 +16,7 @@ CREDIT_READINESS= ArticleData(
     sources=["Lim et al.: Understanding Young Consumer Perceptions on Credit Card Usage"
              "CFPB: How to Rebuild Your Credit"
              "CFPB: What Is a Grace Period for a Credit Card?"]
-
+    )
 
 INVESTING_101 = ArticleData(
     id="investing-101",
@@ -45,25 +45,22 @@ SPENDING_HABITS= ArticleData(
     closing_text="Chandranʼs Ireland-based research links digital ﬁnancial tools with both constructive and risky ﬁnancial behaviors, including impulsive spending; it does not prove that a particular app feature caused a purchase. (Chandran, 2026) Treat your settings change as something to evaluate, not a guaranteed ﬁx. It helps to plan for social spending, too. You could say, “I can do dinner, but not the weekend trip,” or “I have $35 for going out this week. Want to pick something together?” Yeung’s program focuses on building good financial habits as part of designing your life. (Yeung, 2026) With that in mind, make sure to spend on what truly matters to you, instead of following strict rules that take away your enjoyment. Pause one optional purchase and suggest one aﬀordable social plan. At the end of the week, notice which choice felt more aligned with what you actually wanted.",
     head_image_label="Spending Habits",
     paragraph_photo_label="Spending Habits-2",
-    sources=[" Lim et al.: Understanding Young Consumer Perceptions on Credit Card Usage” 
-             "Chandran: Impact of FinTech and Digital Banking Adoption”
-                "Yeung: Future Ready Young Adults”]
-
+    sources=  ['Lim et al.: Understanding Young Consumer Perceptions on Credit Card Usage' ,  'Chandran: Impact of FinTech and Digital Banking Adoption', 'Yeung: Future Ready Young Adults']
+)
     
-EMERGENCY FUNDS= ArticleData(
+EMERGENCY_FUNDS= ArticleData(
     id="EMERGENCY FUNDS",
     category="RAINY DAYS",
     title="You can start your first rainy day fund with a small amount.",
     read_time="2 min read",
     author_info="Written by A. Monet",
-    intro_text="You do not need a large amount to start an emergency fund. The CFPB says it is money set aside for unexpected expenses or emergencies, and even a small fund can give you some peace of mind. (CFPB, Emergency Fund Guide) Think of one situation where having extra money would help. It could be paying for a surprise prescription, urgent travel, a repair, or covering a short break in your income. Pick a first savings goal that feels doable for you, like $100 or $250. These are just examples—what matters is giving yourself some breathing room, not matching someone else’s timeline.."
+    intro_text="You do not need a large amount to start an emergency fund. The CFPB says it is money set aside for unexpected expenses or emergencies, and even a small fund can give you some peace of mind. (CFPB, Emergency Fund Guide) Think of one situation where having extra money would help. It could be paying for a surprise prescription, urgent travel, a repair, or covering a short break in your income. Pick a first savings goal that feels doable for you, like $100 or $250. These are just examples—what matters is giving yourself some breathing room, not matching someone else’s timeline..",
     mid_text="If you put away $10 each week, you would have $100 after ten weeks, not counting interest or withdrawals. This is just an example of how small steps can add up, but everyone’s situation is different. If saving every week is not possible, try putting aside a small part of any extra money you get, like gifts or tax refunds. The CFPB also recommends using these chances, along with regular savings, to grow your emergency fund. (CFPB, Emergency Fund Guide) Make a simple plan by deciding on your goal, how much you can save, how often you will add to it, and where you will keep the money. The CFPB’s savings worksheet can help you with these steps. (CFPB, Savings Plan)",
     closing_text="If setting up automatic transfers might cause an overdraft, try moving money manually after you pay your main bills. If you do not have anything left, it may help to look for support or adjust your payment plan instead of forcing a transfer. Yeung’s curriculum focuses on building habits and flexible planning. (Yeung, 2026) You can use this idea by telling yourself, “I am practicing a savings routine,” and not letting a missed deposit define you. Pick one expense your emergency fund could cover and set a first goal you can reach. Add what you can, even if your first step is just making a plan..",
     head_image_label="emergency funds",
     paragraph_photo_label="flat tire",
-    sources=["Yeung: Future Ready Young Adults",
-             "CFPB: An Essential Guide to Building an Emergency Fund",
-             "CFPB: Savings Plan Worksheet"]
+    sources=["Yeung: Future Ready Young Adults", "CFPB: An Essential Guide to Building an Emergency Fund", "CFPB: Savings Plan Worksheet"]
+    )
 
 # Easily group them into a registry list for dynamic routing
 ALL_ARTICLES = [CREDIT_READINESS, INVESTING_101, SPENDING_HABITS, EMERGENCY_FUNDS]
